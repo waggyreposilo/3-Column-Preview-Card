@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap"); /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+body {
+  background: hsl(0deg, 0%, 95%);
+  font-family: "Lexend Deca", sans-serif;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-preview {
+  border-radius: 1rem;
+  max-width: 60rem;
+  margin: 2rem;
+}
+.card-preview__column {
+  padding: 3rem;
+}
+.card-preview__title {
+  text-transform: uppercase;
+  color: hsl(0deg, 0%, 95%);
+  font-size: 190%;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
+  margin-block: 2rem;
+}
+.card-preview__description {
+  color: hsla(0deg, 0%, 100%, 0.75);
+  margin-bottom: 1.5rem;
+  line-height: 1.5rem;
+}
+@media screen and (min-width: 41.25em) {
+  .card-preview {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: none;
+  }
+  .card-preview__description {
+    margin-bottom: 4rem;
+  }
+}
+
+.orange {
+  background: hsl(31deg, 77%, 52%);
+  border-radius: 1rem 1rem 0 0;
+}
+
+.dark-cyan {
+  background: hsl(184deg, 100%, 22%);
+}
+
+.verydark-cyan {
+  background: hsl(179deg, 100%, 13%);
+  border-radius: 0 0 1rem 1rem;
+}
+
+@media screen and (min-width: 41.25em) {
+  .orange {
+    border-radius: 1rem 0 0 1rem;
+  }
+  .verydark-cyan {
+    border-radius: 0 1rem 1rem 0;
+  }
+}
+button {
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  border: none;
+  cursor: pointer;
+  background-color: hsl(0deg, 0%, 95%);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+
+.color1 {
+  color: hsl(31deg, 77%, 52%);
+}
+
+.color2 {
+  color: hsl(184deg, 100%, 22%);
+}
+
+.color3 {
+  color: hsl(179deg, 100%, 13%);
+}
+
+button:hover {
+  background: rgba(0, 0, 0, 0);
+  outline: 0.2rem solid hsl(0deg, 0%, 95%);
+}
+button:hover .color1, button:hover .color2, button:hover .color3 {
+  color: hsl(0deg, 0%, 95%);
+}/*# sourceMappingURL=main.css.map */

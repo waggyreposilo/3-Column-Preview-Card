@@ -1,0 +1,8 @@
+.orange{background: $primary-color-brightorange; border-radius:1rem 1rem 0 0 ;}
+.dark-cyan{background: $primary-color-darkcyan;}
+.verydark-cyan{background: $primary-color-verydarkcyan; border-radius:0 0 1rem 1rem;}
+
+@include query($screen-wd){
+    .orange{border-radius: 1rem 0 0 1rem;}
+    .verydark-cyan{border-radius: 0 1rem 1rem 0;}
+}

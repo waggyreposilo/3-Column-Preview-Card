@@ -1,0 +1,34 @@
+.card-preview{
+    border-radius: 1rem;
+    max-width:60rem;
+    margin:2rem;
+
+    &__column{
+        padding:3rem;
+    }
+
+    &__title{
+        text-transform: uppercase;
+        color: $neutral-vlgray;
+        font-size:190%;
+        font-family: $font-family-alt;
+        font-weight: 700;
+        margin-block: 2rem;
+    }
+
+    &__description{
+        color: $neutral-white;
+        margin-bottom: 1.5rem;
+        line-height: 1.5rem;
+    }
+
+    @include query($screen-wd){
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding:none;
+
+        &__description{
+            margin-bottom: 4rem;
+        }
+    }
+}
