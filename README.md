@@ -42,6 +42,6 @@ Users should be able to:
 
 Started Using SASS for the first time. Will continue to focus more on sass for the next projects in order to be comfortable with it.
 
-###Useful resources
+### Useful resources
 
 -https://sass-lang.com/guide - helped me with learning SASS. Easy to understand website.
